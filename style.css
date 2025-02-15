@@ -1,0 +1,140 @@
+
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+body {
+
+    background-image: linear-gradient(151deg, rgb(46, 52, 158), rgb(173, 121, 153));
+  background-attachment:fixed;
+    color: #ffffff;
+    font-size: 12px;
+    font-family:"Noto Serif JP", "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-style: normal;
+    line-height: 200%;
+    letter-spacing: 2px;
+}
+
+a {
+    color: #333;
+    background: rgba(255,255,255,.5);
+    text-decoration: none;
+}
+
+a:hover, active {
+    position: relative;
+    top: 0;
+    color: #d0d0d0;
+    background: none;
+}
+
+h1 {
+    font-family: "Oooh Baby", serif;
+    font-style: normal;
+    font-size: 45px;
+    margin: 20px 0 10px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 150%;
+    letter-spacing: 3px;
+}
+
+b {
+    border-bottom: solid 1px #fff;
+}
+
+textarea {
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    height: 100px;
+    width: 80%;
+    font-size: 12px;
+    line-height: 180%;
+    letter-spacing: 2px;
+    color: #333;
+    background: rgba(255,255,255,.5);
+    border: solid 1px rgba(255,255,255,.5);
+        -webkit-appearance: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 3px 0;
+    padding: 3px;
+}
+
+input[type=submit]{
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    height: auto;
+    width: 70px;
+    font-size: 10px;
+    cursor: pointer;
+    text-shadow: none;
+    background: #5b598d;
+    font-weight: 200;
+    border: solid 1px #acb6ba;
+        -webkit-appearance: none;
+    box-shadow: none;
+    padding: 3px;
+    color: #e6eae3;
+
+}
+
+.wrp {
+    max-width: 350px;
+    margin: 50px auto 10px;
+    padding: 5px 10px;
+}
+
+.wrp a {
+    padding: 0 3px;
+}
+
+.box {
+    background: rgba(255,255,255,.4);
+    padding: 5px 10px;
+    margin: 10px;
+    color: #333;
+}
+
+
+.top {
+    margin: 0 10px;
+}
+
+small {
+    line-height: 150%;
+}
+
+
+
+  .info {
+    font-size: 11px;
+    line-height: 190%;
+  }
+
+
+dd {
+    margin-left: 10px; 
+    margin-bottom: 20px;
+}
+
+
+.tate {
+
+    text-align: center;
+
+}
+
+.tategaki {
+    writing-mode: vertical-rl;
+    column-gap: 20px;
+    column-fill: auto;
+    display: inline-block;
+    -webkit-column-fill: auto;
+    -webkit-column-gap: 20px;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    column-count: 1;
+    -webkit-column-count: 1;
+    height: 300px;
+    text-align: left;
+  }
